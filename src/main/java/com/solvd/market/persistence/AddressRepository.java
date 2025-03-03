@@ -1,6 +1,6 @@
 package com.solvd.market.persistence;
 
-import com.solvd.market.domain.shipments.Address;
+import com.solvd.market.builder.shipments.Address;
 
 import java.util.List;
 

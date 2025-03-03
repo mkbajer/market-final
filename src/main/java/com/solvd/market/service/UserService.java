@@ -1,6 +1,6 @@
 package com.solvd.market.service;
 
-import com.solvd.market.domain.users.User;
+import com.solvd.market.builder.users.User;
 
 import java.util.List;
 import java.util.Optional;

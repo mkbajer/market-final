@@ -1,6 +1,6 @@
 package com.solvd.market.persistence.impl;
 
-import com.solvd.market.domain.users.User;
+import com.solvd.market.builder.users.User;
 import com.solvd.market.persistence.ConnectionPool;
 import com.solvd.market.persistence.UserRepository;
 

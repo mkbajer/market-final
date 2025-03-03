@@ -1,8 +1,8 @@
 package com.solvd.market.persistence.impl;
 
-import com.solvd.market.domain.products.Product;
-import com.solvd.market.persistence.ProductRepository;
+import com.solvd.market.builder.products.Product;
 import com.solvd.market.persistence.MyBatisUtil;
+import com.solvd.market.persistence.ProductRepository;
 import org.apache.ibatis.session.SqlSession;
 
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.List;
 public class ProductMapperImpl implements ProductRepository {
 
     @Override
-    public void create(Product product,Long categoryId) {
+    public void create(Product product, Long categoryId) {
         try (SqlSession session = MyBatisUtil.getSessionFactory().openSession(true)) {
             ProductRepository productRepository = session.getMapper(ProductRepository.class);
             productRepository.create(product, categoryId);

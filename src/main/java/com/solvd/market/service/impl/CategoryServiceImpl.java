@@ -1,6 +1,6 @@
 package com.solvd.market.service.impl;
 
-import com.solvd.market.domain.products.Category;
+import com.solvd.market.builder.products.Category;
 import com.solvd.market.persistence.CategoryRepository;
 import com.solvd.market.persistence.impl.CategoryRepositoryImpl;
 import com.solvd.market.service.CategoryService;

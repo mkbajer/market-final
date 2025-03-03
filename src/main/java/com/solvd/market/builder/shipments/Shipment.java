@@ -1,4 +1,4 @@
-package com.solvd.market.domain.shipments;
+package com.solvd.market.builder.shipments;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;

@@ -1,7 +1,7 @@
 package com.solvd.market.persistence.impl;
 
-import com.solvd.market.domain.products.Category;
-import com.solvd.market.domain.products.Product;
+import com.solvd.market.builder.products.Category;
+import com.solvd.market.builder.products.Product;
 import com.solvd.market.persistence.ConnectionPool;
 import com.solvd.market.persistence.ProductRepository;
 

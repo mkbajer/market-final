@@ -1,6 +1,6 @@
 package com.solvd.market.service.impl;
 
-import com.solvd.market.domain.MarketPlace;
+import com.solvd.market.builder.MarketPlace;
 import com.solvd.market.persistence.MarketPlaceRepository;
 import com.solvd.market.persistence.impl.MarketPlaceMapperImpl;
 import com.solvd.market.service.MarketPlaceService;

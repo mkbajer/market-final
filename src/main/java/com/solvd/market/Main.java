@@ -1,15 +1,15 @@
 package com.solvd.market;
 
-import com.solvd.market.domain.MarketPlace;
-import com.solvd.market.domain.orders.Cart;
-import com.solvd.market.domain.orders.Order;
-import com.solvd.market.domain.payments.Payment;
-import com.solvd.market.domain.products.Category;
-import com.solvd.market.domain.products.Discount;
-import com.solvd.market.domain.products.Product;
-import com.solvd.market.domain.shipments.Address;
-import com.solvd.market.domain.shipments.Shipment;
-import com.solvd.market.domain.users.User;
+import com.solvd.market.builder.MarketPlace;
+import com.solvd.market.builder.orders.Cart;
+import com.solvd.market.builder.orders.Order;
+import com.solvd.market.builder.payments.Payment;
+import com.solvd.market.builder.products.Category;
+import com.solvd.market.builder.products.Discount;
+import com.solvd.market.builder.products.Product;
+import com.solvd.market.builder.shipments.Address;
+import com.solvd.market.builder.shipments.Shipment;
+import com.solvd.market.builder.users.User;
 import com.solvd.market.service.*;
 import com.solvd.market.service.impl.*;
 import org.apache.logging.log4j.LogManager;

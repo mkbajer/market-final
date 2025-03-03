@@ -2,7 +2,7 @@ package com.solvd.market;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.solvd.market.domain.MarketPlace;
+import com.solvd.market.builder.MarketPlace;
 
 import java.io.File;
 import java.io.IOException;

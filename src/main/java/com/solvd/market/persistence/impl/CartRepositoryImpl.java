@@ -1,7 +1,7 @@
 package com.solvd.market.persistence.impl;
 
-import com.solvd.market.domain.orders.Cart;
-import com.solvd.market.domain.products.Product;
+import com.solvd.market.builder.orders.Cart;
+import com.solvd.market.builder.products.Product;
 import com.solvd.market.persistence.CartRepository;
 import com.solvd.market.persistence.ConnectionPool;
 

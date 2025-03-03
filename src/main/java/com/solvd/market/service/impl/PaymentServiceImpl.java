@@ -1,6 +1,6 @@
 package com.solvd.market.service.impl;
 
-import com.solvd.market.domain.payments.Payment;
+import com.solvd.market.builder.payments.Payment;
 import com.solvd.market.persistence.PaymentRepository;
 import com.solvd.market.persistence.impl.PaymentRepositoryImpl;
 import com.solvd.market.service.PaymentService;

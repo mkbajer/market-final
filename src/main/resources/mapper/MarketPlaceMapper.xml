@@ -25,9 +25,9 @@
     <!-- SQL Fragment: Reusable SELECT -->
     <sql id="find">
         SELECT
-        <include refid="findBody" />
+        <include refid="findBody"/>
         FROM
-        <include refid="findJoins" />
+        <include refid="findJoins"/>
     </sql>
 
     <!-- SELECT BY ID -->
@@ -55,7 +55,7 @@
     <resultMap id="MarketPlaceResultMap" type="com.solvd.market.domain.MarketPlace" autoMapping="false">
         <id property="id" column="marketplace_id"/>
         <result property="name" column="marketplace_name"/>
-        <collection property="users" ofType="com.solvd.market.domain.users.User" 
+        <collection property="users" ofType="com.solvd.market.domain.users.User"
                     resultMap="com.solvd.market.mapper.UserMapper.UserResultMap"/>
     </resultMap>
 

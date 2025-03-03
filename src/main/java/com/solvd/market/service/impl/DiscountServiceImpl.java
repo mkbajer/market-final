@@ -1,6 +1,6 @@
 package com.solvd.market.service.impl;
 
-import com.solvd.market.domain.products.Discount;
+import com.solvd.market.builder.products.Discount;
 import com.solvd.market.persistence.DiscountRepository;
 import com.solvd.market.persistence.impl.DiscountRepositoryImpl;
 import com.solvd.market.service.DiscountService;

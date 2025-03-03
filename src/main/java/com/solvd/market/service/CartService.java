@@ -1,6 +1,6 @@
 package com.solvd.market.service;
 
-import com.solvd.market.domain.orders.Cart;
+import com.solvd.market.builder.orders.Cart;
 
 import java.util.List;
 import java.util.Optional;

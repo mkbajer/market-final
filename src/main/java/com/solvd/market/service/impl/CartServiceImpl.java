@@ -1,9 +1,8 @@
 package com.solvd.market.service.impl;
 
-import com.solvd.market.domain.orders.Cart;
+import com.solvd.market.builder.orders.Cart;
 import com.solvd.market.persistence.CartRepository;
 import com.solvd.market.persistence.impl.CartMapperImpl;
-import com.solvd.market.persistence.impl.CartRepositoryImpl;
 import com.solvd.market.service.CartService;
 
 import java.util.List;

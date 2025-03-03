@@ -1,6 +1,6 @@
 package com.solvd.market.service;
 
-import com.solvd.market.domain.products.Category;
+import com.solvd.market.builder.products.Category;
 
 import java.util.List;
 

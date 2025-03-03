@@ -1,8 +1,8 @@
 package com.solvd.market.persistence.impl;
 
-import com.solvd.market.domain.users.User;
-import com.solvd.market.persistence.UserRepository;
+import com.solvd.market.builder.users.User;
 import com.solvd.market.persistence.MyBatisUtil;
+import com.solvd.market.persistence.UserRepository;
 import org.apache.ibatis.session.SqlSession;
 
 import java.util.List;

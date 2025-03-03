@@ -2,7 +2,7 @@ package com.solvd.market;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.solvd.market.domain.MarketPlace;
+import com.solvd.market.builder.MarketPlace;
 
 import java.util.List;
 

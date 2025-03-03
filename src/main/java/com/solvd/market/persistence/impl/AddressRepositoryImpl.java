@@ -1,6 +1,6 @@
 package com.solvd.market.persistence.impl;
 
-import com.solvd.market.domain.shipments.Address;
+import com.solvd.market.builder.shipments.Address;
 import com.solvd.market.persistence.AddressRepository;
 import com.solvd.market.persistence.ConnectionPool;
 

@@ -5,7 +5,8 @@
 <mapper namespace="com.solvd.market.persistence.UserRepository">
 
     <insert id="create" keyColumn="id" keyProperty="id" useGeneratedKeys="true">
-        INSERT INTO users (name, surname, email, phone, type, active) VALUES (#{name}, #{surname}, #{email}, #{phone}, #{type}, #{active});
+        INSERT INTO users (name, surname, email, phone, type, active) VALUES (#{name}, #{surname}, #{email}, #{phone},
+        #{type}, #{active});
     </insert>
 
     <select id="findAll" resultType="com.solvd.market.domain.users.User">
@@ -17,7 +18,8 @@
     </select>
 
     <update id="update">
-        UPDATE users SET name = #{name}, surname = #{surname}, email = #{email}, phone = #{phone}, type = #{type}, active = #{active} WHERE id = #{id};
+        UPDATE users SET name = #{name}, surname = #{surname}, email = #{email}, phone = #{phone}, type = #{type},
+        active = #{active} WHERE id = #{id};
     </update>
 
     <delete id="delete" parameterType="long">

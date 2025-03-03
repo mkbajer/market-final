@@ -1,14 +1,17 @@
-package com.solvd.market.domain.products;
+package com.solvd.market.builder.products;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlElementWrapper;
 
-@JsonPropertyOrder({"id", "name", "price", "category"})
+import java.util.List;
+
+@JsonPropertyOrder({"id", "name", "discounts"})
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Product {
+public class Category {
 
     @JsonProperty("id")
     @XmlElement(name = "id")
@@ -18,18 +21,14 @@ public class Product {
     @XmlElement(name = "name")
     private String name;
 
-    @JsonProperty("price")
-    @XmlElement(name = "price")
-    private Double price;
-
-    @JsonProperty("category")
-    @XmlElement(name = "category")
-    private Category category;
+    @JsonProperty("discounts")
+    @XmlElementWrapper(name = "discounts")
+    @XmlElement(name = "discount")
+    private List<Discount> discounts;
 
     public Long getId() {
         return id;
     }
-
 
     public void setId(Long id) {
         this.id = id;
@@ -43,19 +42,11 @@ public class Product {
         this.name = name;
     }
 
-    public Double getPrice() {
-        return price;
+    public List<Discount> getDiscounts() {
+        return discounts;
     }
 
-    public void setPrice(Double price) {
-        this.price = price;
-    }
-
-    public Category getCategory() {
-        return category;
-    }
-
-    public void setCategory(Category category) {
-        this.category = category;
+    public void setDiscounts(List<Discount> discounts) {
+        this.discounts = discounts;
     }
 }

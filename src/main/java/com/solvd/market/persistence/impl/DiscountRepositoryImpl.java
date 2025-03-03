@@ -1,6 +1,6 @@
 package com.solvd.market.persistence.impl;
 
-import com.solvd.market.domain.products.Discount;
+import com.solvd.market.builder.products.Discount;
 import com.solvd.market.persistence.ConnectionPool;
 import com.solvd.market.persistence.DiscountRepository;
 

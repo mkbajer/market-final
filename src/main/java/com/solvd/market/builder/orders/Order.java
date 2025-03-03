@@ -1,9 +1,9 @@
-package com.solvd.market.domain.orders;
+package com.solvd.market.builder.orders;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.solvd.market.domain.payments.Payment;
-import com.solvd.market.domain.shipments.Shipment;
+import com.solvd.market.builder.payments.Payment;
+import com.solvd.market.builder.shipments.Shipment;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
@@ -55,5 +55,8 @@ public class Order {
 
     public void setCart(Cart cart) {
         this.cart = cart;
+    }
+
+    public void setCustomerName(String customerName) {
     }
 }

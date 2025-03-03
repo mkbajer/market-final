@@ -1,6 +1,6 @@
 package com.solvd.market.persistence;
 
-import com.solvd.market.domain.products.Product;
+import com.solvd.market.builder.products.Product;
 
 import java.util.List;
 

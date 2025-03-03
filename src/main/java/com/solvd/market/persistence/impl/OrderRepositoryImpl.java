@@ -1,6 +1,6 @@
 package com.solvd.market.persistence.impl;
 
-import com.solvd.market.domain.orders.Order;
+import com.solvd.market.builder.orders.Order;
 import com.solvd.market.persistence.ConnectionPool;
 import com.solvd.market.persistence.OrderRepository;
 

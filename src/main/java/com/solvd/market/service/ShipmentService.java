@@ -1,6 +1,6 @@
 package com.solvd.market.service;
 
-import com.solvd.market.domain.shipments.Shipment;
+import com.solvd.market.builder.shipments.Shipment;
 
 import java.util.List;
 

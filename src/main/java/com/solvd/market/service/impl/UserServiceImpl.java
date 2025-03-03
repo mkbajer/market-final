@@ -1,9 +1,8 @@
 package com.solvd.market.service.impl;
 
-import com.solvd.market.domain.users.User;
+import com.solvd.market.builder.users.User;
 import com.solvd.market.persistence.UserRepository;
 import com.solvd.market.persistence.impl.UserMapperImpl;
-import com.solvd.market.persistence.impl.UserRepositoryImpl;
 import com.solvd.market.service.UserService;
 
 import java.util.List;

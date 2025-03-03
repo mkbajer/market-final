@@ -1,8 +1,8 @@
 package com.solvd.market.persistence.impl;
 
-import com.solvd.market.domain.payments.Payment;
-import com.solvd.market.persistence.PaymentRepository;
+import com.solvd.market.builder.payments.Payment;
 import com.solvd.market.persistence.MyBatisUtil;
+import com.solvd.market.persistence.PaymentRepository;
 import org.apache.ibatis.session.SqlSession;
 
 import java.util.List;

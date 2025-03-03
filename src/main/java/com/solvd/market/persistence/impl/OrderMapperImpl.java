@@ -1,8 +1,8 @@
 package com.solvd.market.persistence.impl;
 
-import com.solvd.market.domain.orders.Order;
-import com.solvd.market.persistence.OrderRepository;
+import com.solvd.market.builder.orders.Order;
 import com.solvd.market.persistence.MyBatisUtil;
+import com.solvd.market.persistence.OrderRepository;
 import org.apache.ibatis.session.SqlSession;
 
 import java.util.List;

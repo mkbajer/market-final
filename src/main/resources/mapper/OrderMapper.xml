@@ -17,7 +17,8 @@
     </select>
 
     <update id="update">
-        UPDATE orders SET cart_id = #{cart.id}, payment_id = #{payment.id}, shipment_id = #{shipment.id} WHERE id = #{id};
+        UPDATE orders SET cart_id = #{cart.id}, payment_id = #{payment.id}, shipment_id = #{shipment.id} WHERE id =
+        #{id};
     </update>
 
     <delete id="delete" parameterType="long">

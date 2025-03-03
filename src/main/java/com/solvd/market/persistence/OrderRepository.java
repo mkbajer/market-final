@@ -1,6 +1,6 @@
 package com.solvd.market.persistence;
 
-import com.solvd.market.domain.orders.Order;
+import com.solvd.market.builder.orders.Order;
 
 import java.util.List;
 import java.util.Optional;

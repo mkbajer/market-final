@@ -1,8 +1,8 @@
 package com.solvd.market.persistence.impl;
 
-import com.solvd.market.domain.shipments.Shipment;
-import com.solvd.market.persistence.ShipmentRepository;
+import com.solvd.market.builder.shipments.Shipment;
 import com.solvd.market.persistence.MyBatisUtil;
+import com.solvd.market.persistence.ShipmentRepository;
 import org.apache.ibatis.session.SqlSession;
 
 import java.util.List;

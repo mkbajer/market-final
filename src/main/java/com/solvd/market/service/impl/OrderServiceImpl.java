@@ -1,9 +1,8 @@
 package com.solvd.market.service.impl;
 
-import com.solvd.market.domain.orders.Order;
+import com.solvd.market.builder.orders.Order;
 import com.solvd.market.persistence.OrderRepository;
 import com.solvd.market.persistence.impl.OrderMapperImpl;
-import com.solvd.market.persistence.impl.OrderRepositoryImpl;
 import com.solvd.market.service.OrderService;
 
 import java.util.List;

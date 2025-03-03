@@ -1,9 +1,9 @@
-package com.solvd.market.domain.orders;
+package com.solvd.market.builder.orders;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.solvd.market.domain.products.Product;
-import com.solvd.market.domain.users.User;
+import com.solvd.market.builder.products.Product;
+import com.solvd.market.builder.users.User;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;

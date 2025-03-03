@@ -1,9 +1,8 @@
 package com.solvd.market.service.impl;
 
-import com.solvd.market.domain.shipments.Shipment;
+import com.solvd.market.builder.shipments.Shipment;
 import com.solvd.market.persistence.ShipmentRepository;
 import com.solvd.market.persistence.impl.ShipmentMapperImpl;
-import com.solvd.market.persistence.impl.ShipmentRepositoryImpl;
 import com.solvd.market.service.ShipmentService;
 
 import java.util.List;
