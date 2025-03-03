@@ -1,0 +1,42 @@
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+/.idea/
+/target/
+/src/main/resources/sql model.mwb.bak
+/desktop.ini
+/src/main/java/com/solvd/market/JacksonJsonExample.java
+/src/main/java/com/solvd/market/JAXBExample.java
+/src/main/java/com/solvd/market/MainTest.java
+/category.json
+/marketplace.xml
+
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
